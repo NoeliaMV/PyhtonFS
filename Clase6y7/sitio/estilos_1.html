@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Nº1 de estilos</title>
+    <link rel="stylesheet" href="../css/estilos_1.css">
+    <!--<style>
+        p{
+            background-color: yellow;
+        }
+    </style> -->    
+</head>
+<body>
+    <header>
+        <h1>¿Como podemos implementar estilos?</h1>
+        <p>Existen tres maneras, pero solo una es buena paractica a la hora de desarrollar</p>
+    </header>
+    <main>
+        <section>
+            <h2>Estilos en linea</h2> 
+            <p style="background-color: lightcoral;">Cuando utilizamos el atributo «style» dento de la etiqueta de HTML</p> <!-- mala practica mesclamos leguanje adems no es sostenible-->
+            <hr>
+            <h2>Estilos internos</h2>
+            <p>Dentro de la etiqueta «head» del documento (metadatos) utilizando la etiqueta «style»</p> <!-- mala practica-->
+            <hr>
+            <h2><strong>Estilos externos</strong></h2>
+            <p>Manera recomendada.</p>
+            <p>Dentro de la etiqueta «head» agregamos una etiqueta «link» que conecta con nuestro script de CSS</p>
+        </section>
+        <section>
+            <p>De acuerdo al documento de ejemplo y teniendo en cuenta la casacda, evaluar como se implemento jererquicamente cada estilo.</p>
+        </section>
+    </main>
+    <footer>
+        <p><a href="../index.html">Volver al Inicio</a></p>
+    </footer>
+</body>
+</html>
