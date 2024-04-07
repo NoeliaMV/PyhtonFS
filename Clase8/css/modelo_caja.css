@@ -1,6 +1,16 @@
-*{
-    box-sizing: border-box;
-}
+/* Porque usamos border-box */
+/* 
+section {
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+}  */
+/* Sin border-box */
+/* tamaño del ancho = 50 + 10 + 10  // contenido = 50 */
+/* Con border-box */
+/* tamaño del ancho = 50 // contenido = 50 - 10 - 10 */
+
+
 
 body{
     background-color: rgb(193, 193,193);
