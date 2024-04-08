@@ -1,0 +1,29 @@
+article {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+}
+
+/* Modidifico posiciones */
+
+article {
+    max-width: 50%;
+}
+
+section {
+    display: flex;
+}
+
+/* flex lo que hace es que lo que es en bloque pase a ser en linea, rompe con el bloque */
+
+.fa-brands {
+    position: fixed; 
+    bottom: 5%; /* a 5% de distacia del margen inferior*/
+    right: 2%; /*  a 2% de distacia del margen derecho*/
+    font-size: 4rem;
+    z-index: 20;
+
+}
+/* fixed: que va a quedar fijo en un lugar de la pantalla */
+/* z-index es para ubicarlo en capas superiores, para evitar que nada lo pise */
